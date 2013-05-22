@@ -1,0 +1,5 @@
+build/
+dist/
+ve/
+*.pyc
+redis_packer.egg-info/
