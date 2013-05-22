@@ -6,7 +6,7 @@ ext = Extension('pack_command', sources=['pack_command.c'])
 
 setup(
     name='pack command',
-    version='0.18',
+    version='0.19',
     url='',
     license='MIT',
     author='Simon Zimmermann',
