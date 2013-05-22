@@ -81,5 +81,5 @@ def pack_command(*args):
     finally:
         if cmd:
             free(cmd)
-        if cmd:
+        if argvlen:
             free(argvlen)
