@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/simonz05/pack-command.png?branch=master)](https://travis-ci.org/simonz05/pack-command)
+
 # Pack Command 
 
 A C extension to optimize Redis format for redis-py.
