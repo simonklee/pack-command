@@ -2,4 +2,8 @@ build/
 dist/
 ve/
 *.pyc
-redis_packer.egg-info/
+*.egg-info/
+*.egg/
+.coverage
+.tox
+pack_command/_speedups.so

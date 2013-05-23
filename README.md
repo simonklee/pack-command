@@ -1,26 +1,18 @@
-# Redis Packer
+# Pack Command 
 
-A C extension to optimize Redis format in Python.
-
-Potentially it should be merged into Python hiredis bindings
-if I make it production ready. Currently I'm just scratching
-an itch.
-
-## TODO
-
-- Fix/check for leaks
-- Be smarter with allocs.
+A C extension to optimize Redis format for redis-py.
 
 # Usage
 
 ```python
 import redis
-import redis_packer
+import pack_command
 
 class MyConnection(redis.Connection):
-    pack_command = redis_packer.pack_command
+    pack_command = pack_command.pack_command
 
 pool = redis.ConnectionPool(connection_class=MyConnection)
 
 conn = redis.StrictRedis(connection_pool=pool)
+print conn.exists('foo')
 ```

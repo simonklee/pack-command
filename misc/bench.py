@@ -70,4 +70,3 @@ if profile:
     ps = pstats.Stats(pr)
     sort_by = 'cumulative'
     ps.strip_dirs().sort_stats(sort_by).print_stats(20)
-
