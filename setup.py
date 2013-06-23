@@ -54,8 +54,8 @@ def run_setup(with_binary):
         features['speedups'] = speedups
 
     setup(
-        name='Pack Command',
-        version='0.2.0',
+        name='pack-command',
+        version='0.2.1',
         license='MIT',
         url='https://github.com/simonz05/pack-command/',
         author='Simon Zimmermann',
