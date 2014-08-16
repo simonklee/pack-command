@@ -1,7 +1,6 @@
 SYM_STAR = '*'
 SYM_DOLLAR = '$'
 SYM_CRLF = '\r\n'
-SYM_LF = '\n'
 
 def encode(value):
     "Return a bytestring representation of the value"
