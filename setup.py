@@ -55,7 +55,7 @@ def run_setup(with_binary):
 
     setup(
         name='pack-command',
-        version='0.2.1',
+        version='0.2.2',
         license='MIT',
         url='https://github.com/simonz05/pack-command/',
         author='Simon Zimmermann',
