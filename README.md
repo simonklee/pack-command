@@ -18,3 +18,7 @@ pool = redis.ConnectionPool(connection_class=MyConnection)
 conn = redis.StrictRedis(connection_pool=pool)
 print conn.exists('foo')
 ```
+
+# Note about redis-py version
+
+Only works with redis-py<=2.9.x
